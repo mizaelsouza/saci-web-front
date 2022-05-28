@@ -1,0 +1,81 @@
+.sc-sidebar{    
+    width: 240px;
+    height: 100vh;
+    transition: all 0.5s ease;
+    background: #f4f4f4
+    
+}
+
+
+.icons{
+    color: #18A0FB;    
+}
+
+.sc-sidebar-header span{
+    color: #18A0FB;
+    font-size: 35px;
+}
+
+.sc-sidebar_nav{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+    padding: 0px;
+    margin: 0px
+    
+}
+.sc-sidebar_nav__itens{        
+    width: 100%;    
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.5s ease;
+    border-bottom: 1px solid #ccc;    
+    
+    
+}
+.sc-sidebar_nav__link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sc-sidebar_nav__itens:hover{
+    background: #333;
+    color: #fff    
+}
+
+span{
+    margin-left: 15px;
+}
+
+.sidebar-img{    
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-bottom: 10px
+}
+
+.sidebar-img_dados{
+    width: 100%;    
+    align-items: center;
+}
+
+.sidebar-img_dados span{
+    width: 100%;
+    display: block;  
+    margin-left: 5px;     
+
+}
+
+.previlegio{
+    font-size: 11px;
+}
+.sidebar-img img{
+    width: 50px;
+    border-radius:100% ;
+    border: 2px solid #18A0FB;
+}
+
